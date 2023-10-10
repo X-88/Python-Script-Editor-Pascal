@@ -1,0 +1,65 @@
+object FAbout: TFAbout
+  Left = 471
+  Height = 241
+  Top = 155
+  Width = 368
+  AlphaBlend = True
+  AlphaBlendValue = 220
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = '.: About :.'
+  ClientHeight = 241
+  ClientWidth = 368
+  OnCreate = FormCreate
+  OnMouseUp = FormMouseUp
+  Position = poDesktopCenter
+  LCLVersion = '2.2.4.0'
+  object M1: TMemo
+    Left = 6
+    Height = 230
+    Top = 6
+    Width = 358
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -10
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      '                             Ü'
+      '            ÜÛ            ÜÛÛÛÛÜ'
+      '         ÜÛÛÛÛÛ          ÛÛÛß  ßÛÜ'
+      '      ÜÛÛÛÛÛßÛÛÛ°       ÛÛß      ßÛ°'
+      '    ÜÛÛÛß    ÛÛÛ°      ÛÛ° '
+      '   ÜÛß      ÛÛÛ°       ßÛÛÜ'
+      '   ß       ÛÛÛ°          ÛÛÛÜ'
+      '          ÛÛÛ°            ßÛÛÛÜ'
+      '         ÛÛÛ°               ßÛÛÛÛÜ'
+      '        ÛÛÛ°           ÜÜÜÜÜ   ßÛÛÛ°'
+      '       ÛÛÛ°         ÜÛÛÛßß       ÛÛÛ°'
+      '      ÛÛÛß         ÛÛÛ            ÛÛ°'
+      '     ÛÛÛÛ°       ÛÛÛ°  ÜÜÜ       ÛÛÛ°'
+      '      ÛÛÛÛ°     ÛÛÛ°     ßÛÜ   ÜÛÛÛ°'
+      '       ÛÛÛÛÜ  ÜÛÛÛ°       ßÛÛÛÛÛÛÛ°'
+      '        ßÛÛÛÛÛÛÛÛ°          ßÛÛß'
+      '          ßÛÛÛÛß'
+      ''
+      '           ZS - 2021.'
+      ''
+      'About This Application.'
+      'Application Name: Z-Code Editor v1.0.0'
+      'Description: Python Script Editor'
+      'Coded by: Zephio'
+      'Tester: Zephio & Fahlevi Mikase'
+      'Tested : OS Win XP x86 & Win 7 x64'
+      ''
+      'This Application was Created using Lazarus(FPC)'
+      'Zephio, April 2021'
+      'amateur.guide@gmail.com'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+end
